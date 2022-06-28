@@ -13,8 +13,8 @@ minima:
 
 header_pages:
 - about.md
-- links.md
-- _posts/dir
+- link.md
+# - _posts/dir
 
 theme: minima
 plugins:
