@@ -5,6 +5,8 @@ author:
 description: >
   블로그 설명글
 show_excerpts: true
+lang: ko
+
 
 minima:
   date_format: "%b %-d, %Y"
