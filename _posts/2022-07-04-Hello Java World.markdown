@@ -1,0 +1,41 @@
+---
+layout: post
+title: 자바 살펴보기 
+date:   2022-07-04
+categories: 블로그
+author: Jason YG Kim
+---
+
+{% highlight java %}
+public static void main(int[] args){
+  System.out.println("Hello Java World!");
+}
+{% endhighlight %}
+자바에 대해서 간략하게 살펴보자...!
+
+## 1. 자바의 구성 : JRE( 가상머신 , JVM ), JDK
+- 자바 앱은 운영체제가 아니라 JRE 위에서 돌아간다
+- 따라서 JRE만 제공된다면 어느 시스템에서나 돌아갈 수 있다.
+
+## 2. 자바의 종류
+- Java ME : micro edition 망함
+- Java SE : standard edition
+- Java EE : enterprise edition : 스프링한테 밀림 => 오라클에서 포기 => JakartaEE 가 됨
+
+## 3. 자바의 역사
+- Sun 에서 개발함, 2010년에 오라클에서 인수
+- 오라클은 세계 최대의 database 회사
+	
+## 4. 빌드 도구
+- 자바프로그램은 내가 작성한 코드 + 의존성(dependency)으로 구성
+- 자바 프로그래머는 코딩 실력도 중요하지만 설정 능력도 중요함
+- 많이 갖다 쓰는게 더 중요한듯 => 내가 치는 것보다 확장성과 안정성이 있으니깐? 
+- annotation으로 사용
+- 의존성을 포함해서 번역하는 것 => 빌드 build (ant, maven, gradle 같은 도구들이 있다)
+
+## 5. 메소드 오버로딩
+- 함수 이름은 중복 불가능 => 매개변수가 다르다면 중복 가능 : 타입이 달라도 돼고 개수가 달라도 됌
+- 유사한 기능이면 이름을 합치는 거
+- 객체 생성자 같은 예시
+
+
