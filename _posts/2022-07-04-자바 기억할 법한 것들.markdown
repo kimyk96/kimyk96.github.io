@@ -38,4 +38,21 @@ public static void main(int[] args){
 - 유사한 기능이면 이름을 합치는 거
 - 객체 생성자 같은 예시
 
+## 6. 객체지향의 구성요소
+- 캡슐화		encapsulation			클래스를 만들어라
+- 정보은닉	information hiding		private으로 만들어라
+- 상속		inheritance				재사용해라(근데 정작 재사용으로는 안씀)
+- 다형성		polymorphism			상황에 따라 동작이 바뀌어야한다
+- 다형성 세부 : 오버로딩(메서드 여러방식), 오버라이드(상위클래스 메소드를 재정의해서 사용) 
 
+## 7. 객체지향의 설계원칙(SOLID)
+1. 단일 책임 원칙 : SRP : Single Responsibility Principal
+    - 클래스는 한가지 책임만을 가져야한다
+
+2. 개방 폐쇄 원칙 : OCP : Open Closed Principal
+    - 기능의 개선에 대해서는 열려있고 코드의 변경에 대해서는 닫혀있다.
+
+3. 리스코프 치환 원칙 : LSP : Liskov Substitution Principal
+    - 
+
+## 8. 상속
